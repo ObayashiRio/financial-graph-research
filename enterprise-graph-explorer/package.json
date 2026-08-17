@@ -1,0 +1,26 @@
+{
+  "name": "enterprise-graph-explorer",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Interactive 2D and 3D explorer for comparing enterprise relationship graphs.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test",
+    "check": "npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "3d-force-graph": "^1.80.0",
+    "force-graph": "^1.51.4",
+    "three-spritetext": "^1.10.0"
+  },
+  "devDependencies": {
+    "vite": "^8.2.1"
+  }
+}
